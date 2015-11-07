@@ -18,9 +18,6 @@
   },
   "homepage": "https://github.com/phobus/node-mdl-d3-testing#readme",
   "dependencies": {
-    "d3": "^3.5.6",
-    "faker": "^3.0.1",
-    "material-design-lite": "^1.0.6",
     "mime": "^1.3.4"
   }
 }

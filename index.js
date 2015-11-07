@@ -1,3 +1,5 @@
+//  http://howtonode.org/deploy-blog-to-heroku
+
 var http = require("http");
 var fs = require("fs");
 var path = require("path");
