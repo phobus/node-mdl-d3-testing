@@ -1,0 +1,38 @@
+.mdl-layout__header-row {
+  padding: 8px 42px 8px 42px;
+}
+.mdl-card-report .mdl-card__data-table .mdl-data-table {
+  width: 100%;
+  border: none;
+}
+.mdl-card-report .mdl-card__data-table .mdl-data-table th:first-child {
+  visibility: hidden;
+}
+.mdl-card-report .mdl-card__title, .mdl-card-char .mdl-card__title {
+  padding: 12px 26px 12px 26px;
+  /*padding-left: 26px;*/
+}
+.mdl-card-report .mdl-card__title .mdl-card__title-text, .mdl-card-char .mdl-card__title .mdl-card__title-text {
+  font-size: 20px;
+}
+svg {
+  font: 10px sans-serif;
+}
+.area {
+  fill-opacity: 0.2;
+  clip-path: url(#clip);
+}
+.line {
+  fill: none;
+  clip-path: url(#clip);
+}
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
