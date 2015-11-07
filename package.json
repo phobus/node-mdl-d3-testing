@@ -4,16 +4,22 @@
   "description": "node-mdl-d3-testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phobus/node-mdl-d3-testing.git"
   },
-  "author": "",
+  "author": "Pablo Alvaro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/phobus/node-mdl-d3-testing/issues"
   },
-  "homepage": "https://github.com/phobus/node-mdl-d3-testing#readme"
+  "homepage": "https://github.com/phobus/node-mdl-d3-testing#readme",
+  "dependencies": {
+    "d3": "^3.5.6",
+    "faker": "^3.0.1",
+    "material-design-lite": "^1.0.6"
+  }
 }
